@@ -1,6 +1,7 @@
-import flask, time
+import flask 
+import time
 
-app = flask.Flask(__name__)
+app = flask.Flask(name)
 
 
 @app.route("/")
