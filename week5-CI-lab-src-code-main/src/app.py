@@ -1,10 +1,10 @@
-import flask 
+import flask
 import time
 
-app = flask.Flask(__name__)
+app = flask.Flask(name)
 
 
 @app.route("/")
 def index():
-    return "Welcome!!! ",time.localtime
+    return "Welcome!!! ", time.localtime
 
